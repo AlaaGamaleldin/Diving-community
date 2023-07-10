@@ -6,6 +6,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CommunityComponent } from './community/community.component';
 import { DivingCenterComponent } from './diving-center/diving-center.component';
 import { OrganizationsComponent } from './organizations/organizations.component';
+import { HomeComponent } from './home/home.component';
+import { VecationPlanComponent } from './vecation-plan/vecation-plan.component';
+import { ArticalComponent } from './artical/artical.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { OrganizationsComponent } from './organizations/organizations.component'
     NavBarComponent,
     CommunityComponent,
     DivingCenterComponent,
-    OrganizationsComponent
+    OrganizationsComponent,
+    HomeComponent,
+    VecationPlanComponent,
+    ArticalComponent
   ],
   imports: [
     BrowserModule,
