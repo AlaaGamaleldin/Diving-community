@@ -1,0 +1,49 @@
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.container form{
+    background-color: #fff;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.container form label{
+    color: black;
+    color: blue;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+.container form input{
+    width: 200px;
+    height: 40px;
+    border: 1px blue solid;
+    border-radius: 5px;
+    text-align: center;
+}
+.container form button{
+    width: 200px;
+    height: 40px;
+    border: 1px blue solid;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.container form button:hover{
+    color:#fff;
+    background-color: blue;
+    letter-spacing: 2px;
+}
+
+    
