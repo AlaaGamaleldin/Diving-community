@@ -1,8 +1,8 @@
 <div class="container">
     <form>
-        <label for="">Sign In</label>
-        <input type="text" name="text" placeholder="Enter your name">
-        <input type="password" name="password" placeholder="Enter Password">
-        <button>Sign In</button>
+        <label for="signin">Sign In</label>
+        <input type="text" name="text" placeholder="Enter your name" [(ngModel)]="Login.userName">
+        <input type="password" name="password" placeholder="Enter Password" [(ngModel)]="Login.Password">
+        <button (click)="onSignIn()">Sign In</button>
     </form>
     </div>

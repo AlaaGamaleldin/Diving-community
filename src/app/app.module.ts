@@ -11,6 +11,7 @@ import { VecationPlanComponent } from './vecation-plan/vecation-plan.component';
 import { ArticalComponent } from './artical/artical.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { SignUpComponent } from './sign-up/sign-up.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+    
   ],
   providers: [
     
